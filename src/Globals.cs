@@ -3,5 +3,5 @@
 public partial class Map
 {
     public override string ModuleName => "Map";
-    public override string ModuleVersion => "1.0.0";
+    public override string ModuleVersion => "1.0.1";
 }

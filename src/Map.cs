@@ -15,7 +15,7 @@ public partial class Map : BasePlugin
         if (!AdminManager.PlayerHasPermissions(player, "@css/generic"))
             return;
 
-        var arg = command.ArgByIndex(0);
+        var arg = command.ArgByIndex(1);
         Server.ExecuteCommand($"host_workshop_map {arg}");
     }
 }
